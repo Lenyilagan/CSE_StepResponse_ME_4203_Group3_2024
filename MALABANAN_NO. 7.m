@@ -10,3 +10,8 @@ close all
 G_num7 = [6 5 4 3 2]
 G_den7 = [1 2 3 4 5 1]
 G7 = tf(G_num7, G_den7)
+
+
+%% Step Response
+step(G7,0:0.1:20)
+figure
