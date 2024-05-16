@@ -13,5 +13,5 @@ G7 = tf(G_num7, G_den7)
 
 
 %% Step Response
-step(G7,0:0.1:20)
 figure
+step(G7,0:0.1:20)
